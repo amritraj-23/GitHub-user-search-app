@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+
+
+
+body {
+    background-color: #48bfe3;
+}
+
+
+
+.main-div {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #001d3d;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.output-div {
+    margin-top: 50px;
+    height: 300px;
+}
+
+.first-image {
+    width: 100px;
+    height: 300px;
+    margin-left: 0;
+    position: fixed;
+}
+
+.second {
+    margin-left: 130px;
+}
+
+
+
+#image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+p {
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+
+input[type=text] {
+    width: 270px;
+    height: 32px;
+    outline: none;
+    margin-top: 5px;
+    border: 4px solid aqua;
+    border-radius: 5px;
+
+}
+
+input[type=text]:hover {
+    box-shadow: 0 0 2px 2px aqua;
+}
+
+#btn {
+    width: 90px;
+    height: 40px;
+    border: 4px solid aqua;
+    border-radius: 5px;
+    font-family: 'Courgette', cursive;
+}
+
+#btn:hover {
+    box-shadow: 0 0 2px 2px aqua;
+}
+
+.input-box {
+    padding: 5px;
+}
+
+.output-div {
+    display: none;
+}
